@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA8FC4BA1F6275710068CDF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8FC4B91F6275710068CDF3 /* AppDelegate.swift */; };
+		EA8FC4BC1F6275710068CDF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8FC4BB1F6275710068CDF3 /* ViewController.swift */; };
+		EA8FC4BF1F6275710068CDF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8FC4BD1F6275710068CDF3 /* Main.storyboard */; };
+		EA8FC4C11F6275710068CDF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8FC4C01F6275710068CDF3 /* Assets.xcassets */; };
+		EA8FC4C41F6275710068CDF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8FC4C21F6275710068CDF3 /* LaunchScreen.storyboard */; };
+		EA8FC4CF1F6275710068CDF3 /* SelectMutiPhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8FC4CE1F6275710068CDF3 /* SelectMutiPhotoTests.swift */; };
+		EA8FC4DA1F6275710068CDF3 /* SelectMutiPhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8FC4D91F6275710068CDF3 /* SelectMutiPhotoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA8FC4CB1F6275710068CDF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA8FC4AE1F6275700068CDF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA8FC4B51F6275710068CDF3;
+			remoteInfo = SelectMutiPhoto;
+		};
+		EA8FC4D61F6275710068CDF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA8FC4AE1F6275700068CDF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA8FC4B51F6275710068CDF3;
+			remoteInfo = SelectMutiPhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA8FC4B61F6275710068CDF3 /* SelectMutiPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectMutiPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8FC4B91F6275710068CDF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA8FC4BB1F6275710068CDF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA8FC4BE1F6275710068CDF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA8FC4C01F6275710068CDF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA8FC4C31F6275710068CDF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA8FC4C51F6275710068CDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8FC4CA1F6275710068CDF3 /* SelectMutiPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectMutiPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8FC4CE1F6275710068CDF3 /* SelectMutiPhotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMutiPhotoTests.swift; sourceTree = "<group>"; };
+		EA8FC4D01F6275710068CDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8FC4D51F6275710068CDF3 /* SelectMutiPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectMutiPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8FC4D91F6275710068CDF3 /* SelectMutiPhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMutiPhotoUITests.swift; sourceTree = "<group>"; };
+		EA8FC4DB1F6275710068CDF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA8FC4B31F6275710068CDF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8FC4C71F6275710068CDF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8FC4D21F6275710068CDF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA8FC4AD1F6275700068CDF3 = {
+			isa = PBXGroup;
+			children = (
+				EA8FC4B81F6275710068CDF3 /* SelectMutiPhoto */,
+				EA8FC4CD1F6275710068CDF3 /* SelectMutiPhotoTests */,
+				EA8FC4D81F6275710068CDF3 /* SelectMutiPhotoUITests */,
+				EA8FC4B71F6275710068CDF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA8FC4B71F6275710068CDF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA8FC4B61F6275710068CDF3 /* SelectMutiPhoto.app */,
+				EA8FC4CA1F6275710068CDF3 /* SelectMutiPhotoTests.xctest */,
+				EA8FC4D51F6275710068CDF3 /* SelectMutiPhotoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA8FC4B81F6275710068CDF3 /* SelectMutiPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				EA8FC4B91F6275710068CDF3 /* AppDelegate.swift */,
+				EA8FC4BB1F6275710068CDF3 /* ViewController.swift */,
+				EA8FC4BD1F6275710068CDF3 /* Main.storyboard */,
+				EA8FC4C01F6275710068CDF3 /* Assets.xcassets */,
+				EA8FC4C21F6275710068CDF3 /* LaunchScreen.storyboard */,
+				EA8FC4C51F6275710068CDF3 /* Info.plist */,
+			);
+			path = SelectMutiPhoto;
+			sourceTree = "<group>";
+		};
+		EA8FC4CD1F6275710068CDF3 /* SelectMutiPhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA8FC4CE1F6275710068CDF3 /* SelectMutiPhotoTests.swift */,
+				EA8FC4D01F6275710068CDF3 /* Info.plist */,
+			);
+			path = SelectMutiPhotoTests;
+			sourceTree = "<group>";
+		};
+		EA8FC4D81F6275710068CDF3 /* SelectMutiPhotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA8FC4D91F6275710068CDF3 /* SelectMutiPhotoUITests.swift */,
+				EA8FC4DB1F6275710068CDF3 /* Info.plist */,
+			);
+			path = SelectMutiPhotoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA8FC4B51F6275710068CDF3 /* SelectMutiPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8FC4DE1F6275710068CDF3 /* Build configuration list for PBXNativeTarget "SelectMutiPhoto" */;
+			buildPhases = (
+				EA8FC4B21F6275710068CDF3 /* Sources */,
+				EA8FC4B31F6275710068CDF3 /* Frameworks */,
+				EA8FC4B41F6275710068CDF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelectMutiPhoto;
+			productName = SelectMutiPhoto;
+			productReference = EA8FC4B61F6275710068CDF3 /* SelectMutiPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA8FC4C91F6275710068CDF3 /* SelectMutiPhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8FC4E11F6275710068CDF3 /* Build configuration list for PBXNativeTarget "SelectMutiPhotoTests" */;
+			buildPhases = (
+				EA8FC4C61F6275710068CDF3 /* Sources */,
+				EA8FC4C71F6275710068CDF3 /* Frameworks */,
+				EA8FC4C81F6275710068CDF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA8FC4CC1F6275710068CDF3 /* PBXTargetDependency */,
+			);
+			name = SelectMutiPhotoTests;
+			productName = SelectMutiPhotoTests;
+			productReference = EA8FC4CA1F6275710068CDF3 /* SelectMutiPhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA8FC4D41F6275710068CDF3 /* SelectMutiPhotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8FC4E41F6275710068CDF3 /* Build configuration list for PBXNativeTarget "SelectMutiPhotoUITests" */;
+			buildPhases = (
+				EA8FC4D11F6275710068CDF3 /* Sources */,
+				EA8FC4D21F6275710068CDF3 /* Frameworks */,
+				EA8FC4D31F6275710068CDF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA8FC4D71F6275710068CDF3 /* PBXTargetDependency */,
+			);
+			name = SelectMutiPhotoUITests;
+			productName = SelectMutiPhotoUITests;
+			productReference = EA8FC4D51F6275710068CDF3 /* SelectMutiPhotoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA8FC4AE1F6275700068CDF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = tony;
+				TargetAttributes = {
+					EA8FC4B51F6275710068CDF3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G325842PV9;
+						ProvisioningStyle = Automatic;
+					};
+					EA8FC4C91F6275710068CDF3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G325842PV9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA8FC4B51F6275710068CDF3;
+					};
+					EA8FC4D41F6275710068CDF3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G325842PV9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA8FC4B51F6275710068CDF3;
+					};
+				};
+			};
+			buildConfigurationList = EA8FC4B11F6275700068CDF3 /* Build configuration list for PBXProject "SelectMutiPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA8FC4AD1F6275700068CDF3;
+			productRefGroup = EA8FC4B71F6275710068CDF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA8FC4B51F6275710068CDF3 /* SelectMutiPhoto */,
+				EA8FC4C91F6275710068CDF3 /* SelectMutiPhotoTests */,
+				EA8FC4D41F6275710068CDF3 /* SelectMutiPhotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA8FC4B41F6275710068CDF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8FC4C41F6275710068CDF3 /* LaunchScreen.storyboard in Resources */,
+				EA8FC4C11F6275710068CDF3 /* Assets.xcassets in Resources */,
+				EA8FC4BF1F6275710068CDF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8FC4C81F6275710068CDF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8FC4D31F6275710068CDF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA8FC4B21F6275710068CDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8FC4BC1F6275710068CDF3 /* ViewController.swift in Sources */,
+				EA8FC4BA1F6275710068CDF3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8FC4C61F6275710068CDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8FC4CF1F6275710068CDF3 /* SelectMutiPhotoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8FC4D11F6275710068CDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8FC4DA1F6275710068CDF3 /* SelectMutiPhotoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA8FC4CC1F6275710068CDF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA8FC4B51F6275710068CDF3 /* SelectMutiPhoto */;
+			targetProxy = EA8FC4CB1F6275710068CDF3 /* PBXContainerItemProxy */;
+		};
+		EA8FC4D71F6275710068CDF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA8FC4B51F6275710068CDF3 /* SelectMutiPhoto */;
+			targetProxy = EA8FC4D61F6275710068CDF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA8FC4BD1F6275710068CDF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8FC4BE1F6275710068CDF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA8FC4C21F6275710068CDF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8FC4C31F6275710068CDF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA8FC4DC1F6275710068CDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA8FC4DD1F6275710068CDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA8FC4DF1F6275710068CDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G325842PV9;
+				INFOPLIST_FILE = SelectMutiPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tony.SelectMutiPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA8FC4E01F6275710068CDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G325842PV9;
+				INFOPLIST_FILE = SelectMutiPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tony.SelectMutiPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EA8FC4E21F6275710068CDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G325842PV9;
+				INFOPLIST_FILE = SelectMutiPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tony.SelectMutiPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelectMutiPhoto.app/SelectMutiPhoto";
+			};
+			name = Debug;
+		};
+		EA8FC4E31F6275710068CDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G325842PV9;
+				INFOPLIST_FILE = SelectMutiPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tony.SelectMutiPhotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelectMutiPhoto.app/SelectMutiPhoto";
+			};
+			name = Release;
+		};
+		EA8FC4E51F6275710068CDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = G325842PV9;
+				INFOPLIST_FILE = SelectMutiPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tony.SelectMutiPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SelectMutiPhoto;
+			};
+			name = Debug;
+		};
+		EA8FC4E61F6275710068CDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = G325842PV9;
+				INFOPLIST_FILE = SelectMutiPhotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tony.SelectMutiPhotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SelectMutiPhoto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA8FC4B11F6275700068CDF3 /* Build configuration list for PBXProject "SelectMutiPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8FC4DC1F6275710068CDF3 /* Debug */,
+				EA8FC4DD1F6275710068CDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8FC4DE1F6275710068CDF3 /* Build configuration list for PBXNativeTarget "SelectMutiPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8FC4DF1F6275710068CDF3 /* Debug */,
+				EA8FC4E01F6275710068CDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA8FC4E11F6275710068CDF3 /* Build configuration list for PBXNativeTarget "SelectMutiPhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8FC4E21F6275710068CDF3 /* Debug */,
+				EA8FC4E31F6275710068CDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA8FC4E41F6275710068CDF3 /* Build configuration list for PBXNativeTarget "SelectMutiPhotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8FC4E51F6275710068CDF3 /* Debug */,
+				EA8FC4E61F6275710068CDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA8FC4AE1F6275700068CDF3 /* Project object */;
+}
