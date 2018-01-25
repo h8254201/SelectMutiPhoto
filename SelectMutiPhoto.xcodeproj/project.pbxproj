@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EA8FC4BA1F6275710068CDF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8FC4B91F6275710068CDF3 /* AppDelegate.swift */; };
-		EA8FC4BC1F6275710068CDF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8FC4BB1F6275710068CDF3 /* ViewController.swift */; };
+		EA8FC4BC1F6275710068CDF3 /* SelectMutiPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8FC4BB1F6275710068CDF3 /* SelectMutiPhotoViewController.swift */; };
 		EA8FC4BF1F6275710068CDF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8FC4BD1F6275710068CDF3 /* Main.storyboard */; };
 		EA8FC4C11F6275710068CDF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8FC4C01F6275710068CDF3 /* Assets.xcassets */; };
 		EA8FC4C41F6275710068CDF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8FC4C21F6275710068CDF3 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		EA8FC4B61F6275710068CDF3 /* SelectMutiPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectMutiPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8FC4B91F6275710068CDF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA8FC4BB1F6275710068CDF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA8FC4BB1F6275710068CDF3 /* SelectMutiPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMutiPhotoViewController.swift; sourceTree = "<group>"; };
 		EA8FC4BE1F6275710068CDF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA8FC4C01F6275710068CDF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA8FC4C31F6275710068CDF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				EA8FC4B91F6275710068CDF3 /* AppDelegate.swift */,
-				EA8FC4BB1F6275710068CDF3 /* ViewController.swift */,
+				EA8FC4BB1F6275710068CDF3 /* SelectMutiPhotoViewController.swift */,
 				EA8FC4BD1F6275710068CDF3 /* Main.storyboard */,
 				EA8FC4C01F6275710068CDF3 /* Assets.xcassets */,
 				EA8FC4C21F6275710068CDF3 /* LaunchScreen.storyboard */,
@@ -193,7 +193,7 @@
 				TargetAttributes = {
 					EA8FC4B51F6275710068CDF3 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = G325842PV9;
+						DevelopmentTeam = 7K333GRG33;
 						ProvisioningStyle = Automatic;
 					};
 					EA8FC4C91F6275710068CDF3 = {
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA8FC4BC1F6275710068CDF3 /* ViewController.swift in Sources */,
+				EA8FC4BC1F6275710068CDF3 /* SelectMutiPhotoViewController.swift in Sources */,
 				EA8FC4BA1F6275710068CDF3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,11 +417,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = G325842PV9;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K333GRG33;
 				INFOPLIST_FILE = SelectMutiPhoto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tony.SelectMutiPhoto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -430,11 +435,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = G325842PV9;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K333GRG33;
 				INFOPLIST_FILE = SelectMutiPhoto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tony.SelectMutiPhoto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -516,6 +526,7 @@
 				EA8FC4E01F6275710068CDF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA8FC4E11F6275710068CDF3 /* Build configuration list for PBXNativeTarget "SelectMutiPhotoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +535,7 @@
 				EA8FC4E31F6275710068CDF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA8FC4E41F6275710068CDF3 /* Build configuration list for PBXNativeTarget "SelectMutiPhotoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +544,7 @@
 				EA8FC4E61F6275710068CDF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

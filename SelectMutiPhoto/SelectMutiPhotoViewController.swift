@@ -8,11 +8,23 @@
 
 import UIKit
 import Photos
-
-class ViewController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource {
+protocol SelectMutiPhotoDelegate {
+    func selectMutiPhoto(_ images : Array<UIImage>)
+}
+class SelectMutiPhotoViewController: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource {
     @IBOutlet weak var col: UICollectionView!
-    var selectPhotos = Array<Int>()
+    var selectPhotosTag = Array<Int>()
     var allPhotos = PHFetchResult<PHAsset>()
+    var delegate : SelectMutiPhotoDelegate?
+    @IBAction func pressDoneAction(_ sender: Any) {
+        var selectPhotos = Array<UIImage>()
+        for i in selectPhotosTag{
+            selectPhotos.append(getAssetThumbnail(asset: allPhotos[i]))
+        }
+        self.dismiss(animated: true){
+            self.delegate?.selectMutiPhoto(selectPhotos)
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         PHPhotoLibrary.requestAuthorization { (status) in
@@ -24,14 +36,18 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
                 fetchOptions.sortDescriptors = sortOrder
                 self.allPhotos = PHAsset.fetchAssets(with: .image, options: fetchOptions)
                 print("Found \(self.allPhotos.count) images")
-                self.col.dataSource = self
-                self.col.delegate = self
+                DispatchQueue.main.async {
+                    self.col.dataSource = self
+                    self.col.delegate = self
+                }
             case .denied, .restricted:
                 print("Not allowed")
             case .notDetermined:
                 print("Not determined yet")
             }
         }
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -66,8 +82,8 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
         cell.sortLbl.text = ""
         
         cell.img.image = getAssetThumbnail(asset: allPhotos[indexPath.row])
-        if selectPhotos.contains(indexPath.row){
-            if let select = selectPhotos.index(of: indexPath.row){
+        if selectPhotosTag.contains(indexPath.row){
+            if let select = selectPhotosTag.index(of: indexPath.row){
                 cell.sortLbl.text = (select + 1).description
             }
             cell.img.layer.borderWidth = 5
@@ -76,12 +92,12 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        if selectPhotos.contains(indexPath.row){
-            if let select = selectPhotos.index(of: indexPath.row){
-                selectPhotos.remove(at: select)
+        if selectPhotosTag.contains(indexPath.row){
+            if let select = selectPhotosTag.index(of: indexPath.row){
+                selectPhotosTag.remove(at: select)
             }
         }else{
-            selectPhotos.append(indexPath.row)
+            selectPhotosTag.append(indexPath.row)
         }
         self.col.reloadData()
     }
